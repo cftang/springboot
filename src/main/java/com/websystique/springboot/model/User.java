@@ -11,6 +11,9 @@ public class User implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
+//	@Id
+//	@GeneratedValue(strategy=GenerationType.AUTO)
+//	@Column(name = "ID")
 	private Long id;
 
 	@NotEmpty
